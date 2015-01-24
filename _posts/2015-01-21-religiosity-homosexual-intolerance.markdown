@@ -13,7 +13,7 @@ For the final project of [Data Analysis and Statistical Inference](https://www.c
 * Gays and lesbians free to live life as they wish. A categorical variable coded from 1, strongly agree, to 5, strongly disagree.  
 
 
-<p>While <a target="_blank" href="http://jcarlosmayo.shinyapps.io/ESS_2012">responses vary greatly across countries</a>, I focused on the aggregated data:</p>
+<p>While responses vary greatly across countries I focused on the aggregated data:</p>
 
 <table>
 	<tr>
