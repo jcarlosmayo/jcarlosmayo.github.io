@@ -1,13 +1,13 @@
 # Site settings
-title: Clean Blog
+title: facts & figures
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
+email: juan.carlos.mayo.martinez@gmail.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: ""
 url: "http://jcarlosmayo.github.io"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+twitter_username: jcarlosmayo
+github_username:  jcarlosmayo
+facebook_username:  jcarlos.mayo
 
 # Build settings
 markdown: kramdown
