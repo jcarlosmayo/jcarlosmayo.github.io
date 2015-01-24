@@ -2,7 +2,7 @@
 layout:     post
 title:      "Religiosity & homosexual (in)tolerance"
 subtitle:   "An independence study on European sentiment"
-date:       2015-01-21 12:00:00
+date:       2014-11-06 12:00:00
 author:     "Juan Carlos Mayo"
 header-img: "img/post-religiosity.jpg"
 ---
