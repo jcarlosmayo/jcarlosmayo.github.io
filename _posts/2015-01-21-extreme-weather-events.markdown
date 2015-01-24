@@ -2,7 +2,7 @@
 layout:     post
 title:      "Bad weather costs"
 subtitle:   "Consequences of extreme weather events in the US"
-date:       2015-01-21 12:00:00
+date:       2015-01-13 12:00:00
 author:     "Juan Carlos Mayo"
 header-img: "img/post-extreme-weather.jpg"
 ---
