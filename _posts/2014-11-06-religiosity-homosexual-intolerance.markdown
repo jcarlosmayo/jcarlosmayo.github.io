@@ -13,10 +13,10 @@ For the final project of [Data Analysis and Statistical Inference](https://www.c
 * Gays and lesbians free to live life as they wish. A categorical variable coded from 1, strongly agree, to 5, strongly disagree.  
 
 
-<p>While responses vary greatly across countries I focused on the aggregated data:</p>
+While responses vary greatly across countries I focused on the aggregated data:
 
 <iframe width="350" height="345" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~jcarlosmayo/22.embed?width=460&height=345"></iframe>
-<iframe width="350" height="345" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~jcarlosmayo/23.embed?width=460&height=345">
+<iframe width="350" height="345" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~jcarlosmayo/23.embed?width=460&height=345"></iframe>
 
 The distributions of both answers provide a good first overview on the beliefs of Europeans as a whole. The religious belief of the respondents peaks at 'not religious at all' and 'moderately religious', but they are otherwise quite evenly distributed. On the other hand, the answers of respondents to the statement 'gays and lesbians free to live life as they wish' are strongly skewed; most of the respondents agreeing with that statement.
 
