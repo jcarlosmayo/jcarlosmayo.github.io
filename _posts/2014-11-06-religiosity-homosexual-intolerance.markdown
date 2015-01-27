@@ -7,7 +7,7 @@ author:     "Juan Carlos Mayo"
 header-img: "img/post-religiosity.jpg"
 ---
 
-Is there a relationship between how religious a person is and his or her views towards homosexuality? was the question I posed  for the course <a target="_blank" href="https://www.coursera.org/course/statistics">Data Analysis and Statistical Inference</a>. The <a target="_blank" href="http://www.europeansocialsurvey.org">European Social Survey</a> provides data on the beliefs and behaviour of European nations, among which one can find the answer to:
+**Is there a relationship between how religious a person is and his or her views towards homosexuality?** was the question I posed  for the course <a target="_blank" href="https://www.coursera.org/course/statistics">Data Analysis and Statistical Inference</a>. The <a target="_blank" href="http://www.europeansocialsurvey.org">European Social Survey</a> provides data on the beliefs and behaviour of European nations, among which one can find the answer to:
 
 * Howe religious are you? A categorical variable coded from 0, not religious at all, to 10, very religious.
 * Gays and lesbians free to live life as they wish. A categorical variable coded from 1, strongly agree, to 5, strongly disagree.  
