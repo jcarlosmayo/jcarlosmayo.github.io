@@ -7,7 +7,7 @@ author:     "Juan Carlos Mayo"
 header-img: "img/post-religiosity.jpg"
 ---
 
-For the final project of [Data Analysis and Statistical Inference](https://www.coursera.org/course/statistics) I tested the existence of a relationship between religious beliefs and views towards homosexuality using the publicly available data from the [European Social Survey](http://www.europeansocialsurvey.org/) of 2012 - the latest data available when I took the course. The data provide a fair amount of information on the beliefs and behaviour of many European nations, among which one can find the answer to the following questions:
+Is there a relationship between how religious a person is and his or her views towards homosexuality? was the question I posed  for the course  [Data Analysis and Statistical Inference](https://www.coursera.org/course/statistics).  The [European Social Survey](http://www.europeansocialsurvey.org/) provides data on the beliefs and behaviour of European nations, among which one can find the answer to:
 
 * Howe religious are you? A categorical variable coded from 0, not religious at all, to 10, very religious.
 * Gays and lesbians free to live life as they wish. A categorical variable coded from 1, strongly agree, to 5, strongly disagree.  
@@ -20,12 +20,12 @@ While responses vary greatly across countries I focused on the aggregated data:
 
 The distributions of both answers provide a good first overview on the beliefs of Europeans as a whole. The religious belief of the respondents peaks at 'not religious at all' and 'moderately religious', but they are otherwise quite evenly distributed. On the other hand, the answers of respondents to the statement 'gays and lesbians free to live life as they wish' are strongly skewed; most of the respondents agreeing with that statement.
 
-Before running an independence test I created a contingency table to plot the percentage of respondents of one variable in terms of the other. Visually, a pattern emerges. Respondents who stated being 'not religious at all' agree the most with that statement. Vice versa, 'very religious' respondents disagree the most with that statement. This trend suggests that a relationship exists.
+Before running an independence test I created a contingency table to plot the percentage of respondents of one variable in terms of the other. Visually, a pattern emerges. Respondents who stated being 'not religious at all' agree the most with that statement. Vice versa, 'very religious' respondents disagree the most with that statement. This trend already suggests that a relationship exists.
 
 <iframe width="700" height="420" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~jcarlosmayo/25.embed?width=560&height=420"></iframe>
 
 
-To test the independence of the variables I ran a <a target="_blank" href="https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test">chi-squared test </a> that resulted in a **p-value of 2.2e-16 using a 1% significance level**, which indicates that the **variables are not independent**. Respondents who agree with the statement 'gays and lesbians free to live life as they wish' tend to be less religious or not religious at all, while respondents who disagree with that statement tend to be religious or very religious. **Note**, however, that no causality can be infered from this relationship.
+To test the independence of the variables I ran a <a target="_blank" href="https://en.wikipedia.org/wiki/Pearson%27s_chi-squared_test">chi-squared test </a> that resulted in a **p-value of 2.2e-16 using a 1% significance level**, which indicates that the **variables are indeed not independent**. Respondents who agree with the statement 'gays and lesbians free to live life as they wish' tend to be less religious or not religious at all, while respondents who disagree with that statement tend to be religious or very religious. **Note**, however, that no causality can be infered from this relationship.
 
 ---
 
