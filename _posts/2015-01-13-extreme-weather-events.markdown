@@ -56,7 +56,7 @@ to obtain 9 major categories:
 </table>
 
 
-Which gets us ready to provide some answers on their consequences.
+After which we are ready to provide some answers on their consequences.
 
 ### Which types of events are most harmful with respect to population health?
 
