@@ -7,7 +7,9 @@ author:     "Juan Carlos Mayo"
 header-img: "img/post-religiosity.jpg"
 ---
 
-*Is there a relationship between how religious a person is and his or her views towards homosexuality?* was the question I posed  for the course <a target="_blank" href="https://www.coursera.org/course/statistics">Data Analysis and Statistical Inference</a>. The <a target="_blank" href="http://www.europeansocialsurvey.org">European Social Survey</a> provides data on the beliefs and behaviour of European nations, among which one can find the answer to:
+**Is there a relationship between how religious a person is and his or her views towards homosexuality?** The answer may seem obvious to many, 
+yet it is better to test what one may suspect. The <a target="_blank" href="http://www.europeansocialsurvey.org">European Social Survey</a> 
+provides a fairly good amount of information on the beliefs and behaviour of Europeans across nations, among which one can find the answer to:
 
 * Howe religious are you? A categorical variable coded from 0, not religious at all, to 10, very religious.
 * Gays and lesbians free to live life as they wish. A categorical variable coded from 1, strongly agree, to 5, strongly disagree.  
@@ -29,8 +31,10 @@ To test the independence of the variables I ran a <a target="_blank" href="https
 
 ---
 
-See the original work on <a target="_blank" href="http://rpubs.com/jcarlosmayo/dasi_project">RPubs</a> and the R code on <a target="_blank" href="https://github.com/jcarlosmayo/dasi_project">GitHub</a>.
+The <a target="_blank" href="http://rpubs.com/jcarlosmayo/dasi_project">original study </a>was carried out for the course 
+<a target="_blank" href="https://www.coursera.org/course/statistics">Data Analysis and Statistical Inference</a>. You may also find the whole R code on <a target="_blank" href="https://github.com/jcarlosmayo/dasi_project">GitHub</a>.
 
 ---
+
 
 <div id="image-credit">Image: <a href="https://en.wikipedia.org/wiki/Rainbows_in_culture">Wikipedia / Rainbows in culture - Noah's Thank Offering by Joseph Anton Koch</a>.</div>

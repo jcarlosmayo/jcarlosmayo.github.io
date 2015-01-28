@@ -8,27 +8,60 @@ header-img: "img/post-extreme-weather.jpg"
 ---
 
 Severe and extreme weather events in the form of storms, floods and tornados can result in fatalities, injuries and economic losses. 
-Using data from the <a target="_blank" href="http://www.noaa.gov">US National Oceanic and Atmospheric Administration </a> - NOAA - 
-the course <a target="_blank" href="http://www.coursera.org/course/repdata">Reproducible Research</a> required students to
-answer two questions:
+It is possible to explore their consequences using the 
+<a target="_blank" href="http://www.noaa.gov">US National Oceanic and Atmospheric Administration </a> - NOAA - detailed weather reports, 
+which are publicly available and cover the period from 1950 to 2011. The 
+<a target="_blank" href="https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2">data</a> 
+contains a great a deal of detail; 
+so much so that instead of a neat categorisation of weather events  - e.g. *flood*, *tornado*... - there is a plethora of 985 
+categories consisting of:
 
-* Which types of events are most harmful with respect to population health?
+* **abbreviations**, like *tstm* instead of *thunderstorm*,
+* **clarifications**, like *gusty wind and rain*,
+* **typos**, like *torndao* instead of *tornado*
+* and **vague terminology**, like *red flag criteria*
 
-* Which types of events have the greatest economic consequences?
+
+Which can, nonetheless, be sorted using regular expressions - 
+<a target="_blank" href="http://rpubs.com/jcarlosmayo/repdata_extreme_weather_us">see how I did it </a>- 
+to obtain 9 major categories:
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{ font-weight:bold;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg .tg-s6z2{text-align:center}
+</style>
+<table class="tg">
+  <tr>
+    <td class="tg-s6z2">Hot weather<br></td>
+    <td class="tg-031e"></td>
+    <td class="tg-s6z2">Rain</td>
+    <td class="tg-031e"></td>
+    <td class="tg-s6z2">Wind</td>
+  </tr>
+  <tr>
+    <td class="tg-s6z2">Cold weather<br></td>
+    <td class="tg-031e"></td>
+    <td class="tg-s6z2">Flood</td>
+    <td class="tg-031e"></td>
+    <td class="tg-s6z2">Tornado</td>
+  </tr>
+  <tr>
+    <td class="tg-s6z2">Thunderstorm</td>
+    <td class="tg-031e"></td>
+    <td class="tg-s6z2">Fire</td>
+    <td class="tg-031e"></td>
+    <td class="tg-s6z2">Other</td>
+  </tr>
+</table>
 
 
-The <a target="_blank" href="https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2">data</a> available from NOAA contains 
-information on weather reports in the United States from 1950 to 2011. A tidy categorisation would make answering these 
-questions fairly easy, instead there is a plethora of abbreviations, clarifications, typos and vague terminology that results in 985 
-categories of weather events. Ranging from specific and clear values like *thunderstorm* or *flood* to vague terms like *funnel cloud* or 
-*gradient wind*. For example thunderstorms can be referred to as *thunderstorms*,  *gusty thunderstorm wind* and *tstm*. 
-Nevertheless, after applying regular expressions - <a target="_blank" href="http://rpubs.com/jcarlosmayo/repdata_extreme_weather_us"> 
-see how I did it </a>- it is possible to reduce it to just 9 major categories, which gets us ready to answer the questions.
+Which gets us ready to provide some answers on their consequences.
 
 ### Which types of events are most harmful with respect to population health?
 
-Tornados are by far the most dangerous weather event in the US. 60,700 tornados were registered from 1950 until 2011, injuring 91,407 and 
-killing 5,636 people. Tornados are also the major cause of injuries, up to 65% of the total, while the next major cause of injuries, rain, 
+Tornados have been by far the most dangerous weather event in the US. 60,700 tornados were registered from 1950 until 2011, injuring 91,407 and 
+killing 5,636 people. Tornados were also the major cause of injuries, up to 65% of the total, while the next major cause of injuries, rain, 
 represents only 10%.
 
 <iframe width="350" height="345" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~jcarlosmayo/47.embed?width=460&height=345"></iframe>
@@ -38,8 +71,8 @@ represents only 10%.
 
 ### Which types of events have the greatest economic consequences?
 
-Floods have caused the major economic losses from 1950 to 2011. In that period 86,136 floods have been reported and while they have caused 
-damages in the crops valued in 7,4 billion dollars, the result in property damages reaches 167 billion dollars.
+Floods have been the major cause of economic losses from 1950 to 2011. In that period 86,136 floods were reported and while they caused 
+damages in the crops valued in 7,4 billion dollars, the resulted in property damages reaching 167 billion dollars.
 
 <iframe width="350" height="345" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~jcarlosmayo/53.embed?width=460&height=345"></iframe>
 <iframe width="350" height="345" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~jcarlosmayo/57.embed?width=460&height=345"></iframe>
@@ -52,13 +85,14 @@ The record is only complete for all weather events from 1993 onwards. In those y
 in the number of thunderstorms, although floods also display some increase and interestingly there is an abrupt leap in cold weather in 
 recent years. The large increase of "other" events may be a result of the categorization established in the data cleaning process 
 but it may also reflect the fact that many more minute appreciations have been registered in recent years, such as ""red flag criteria", 
-"remnants of floyd" or "waterspout funnel cloud", which fall in the category "other".
+"remnants of floyd" or "waterspout funnel cloud", which do not provide very specific information and fell in the category *other*.
 
 <iframe width="700" height="480" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~jcarlosmayo/84.embed?width=640&height=480"></iframe>
 
 ---
 
-See the original work on <a target="_blank" href="http://rpubs.com/jcarlosmayo/repdata_extreme_weather_us">RPubs</a> and the R code on <a target="_blank" href="http://github.com/jcarlosmayo/repdata_pa2_extreme_weather">GitHub</a>.
+The <a target="_blank" href="http://rpubs.com/jcarlosmayo/repdata_extreme_weather_us">original study </a>was carried out for the course 
+<a target="_blank" href="http://www.coursera.org/course/repdata">Reproducible Research</a>. You may also find the whole R code on <a target="_blank" href="http://github.com/jcarlosmayo/repdata_pa2_extreme_weather">GitHub</a>.
 
 ---
 
