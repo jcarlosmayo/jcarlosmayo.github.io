@@ -11,7 +11,7 @@ header-img: "img/post-religiosity.jpg"
 yet it is better to test what one may suspect. The <a target="_blank" href="http://www.europeansocialsurvey.org">European Social Survey</a> 
 provides a fairly good amount of information on the beliefs and behaviour of Europeans across nations, among which one can find the answer to:
 
-* Howe religious are you? A categorical variable coded from 0, not religious at all, to 10, very religious.
+* How religious are you? A categorical variable coded from 0, not religious at all, to 10, very religious.
 * Gays and lesbians free to live life as they wish. A categorical variable coded from 1, strongly agree, to 5, strongly disagree.  
 
 
