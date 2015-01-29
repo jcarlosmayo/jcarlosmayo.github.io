@@ -37,4 +37,4 @@ The <a target="_blank" href="http://rpubs.com/jcarlosmayo/dasi_project">original
 ---
 
 
-<div id="image-credit">Image: <a href="https://en.wikipedia.org/wiki/Rainbows_in_culture">Wikipedia / Rainbows in culture - Noah's Thank Offering by Joseph Anton Koch</a>.</div>
+<div id="image-credit">Image: <a href="http://www.tate.org.uk/art/artworks/adams-rainbow-painting-i-t01127">TATE - Rainbow painting (I) by Norman Adams</a>.</div>
