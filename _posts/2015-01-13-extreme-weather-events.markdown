@@ -87,7 +87,7 @@ recent years. The large increase of "other" events may be a result of the catego
 but it may also reflect the fact that many more minute appreciations have been registered in recent years, such as ""red flag criteria", 
 "remnants of floyd" or "waterspout funnel cloud", which do not provide very specific information and fell in the category *other*.
 
-<iframe width="700" height="480" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~jcarlosmayo/84.embed?width=640&height=480"></iframe>
+<iframe width="700" height="480" frameborder="0" seamless="seamless" scrolling="no" src="https://plot.ly/~jcarlosmayo/105.embed?width=6400&height=480"></iframe>
 
 ---
 
