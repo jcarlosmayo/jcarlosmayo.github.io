@@ -32,7 +32,7 @@ can see below, which displays static content but could be easily developed to pr
 <img src="{{ site.baseurl }}/img/post-helsinki-housing/post-helsinki-housing-teaser.png" />
 </a>
 
-The data captures the rentals offered by several real state agents but it has been extracted from a single portal at 
+The data captures the rentals offered by several real estate agents but it has been extracted from a single portal at 
 only two different points in time so it definitely does not provide an overall picture of the housing market in the area. 
 Additionally, I have restricted the values to the central 95th percentile to remove the distortions introduce by extreme outliers. 
 Bearing that in mind it is still interesting to have a look at the distribution of price and size. The vast majority of rentals correspond to 
@@ -41,11 +41,11 @@ apartments in the range of 50m<sup>2</sup> and there seems to be an interesting 
 <img src="{{ site.baseurl }}/img/post-helsinki-housing/hist_size.png" />
 <img src="{{ site.baseurl }}/img/post-helsinki-housing/hist_price.png" />
 
-Regarding real state firms, among a good amount of competition, SATO, dealing about 25% of the available rentals seems to be a dominant player - 
-at this point in time at least. It is also interesting that a fair percentage of the rentals available, about 13%, is composed by small firms, associations and societies not directly involved in real state and private individuals, which I packed together under the category *Other*.
+Regarding real estate firms, among a good amount of competition, SATO, dealing about 25% of the available rentals seems to be a dominant player - 
+at this point in time at least. It is also interesting that a fair percentage of the rentals available, about 13%, is composed by small firms, associations and societies not directly involved in real estate and private individuals, which I packed together under the category *Other*.
 
 <div>
-    <a href="https://plot.ly/~jcarlosmayo/175/" target="_blank" title="Amount of rentals by real state agency" style="display: block; text-align: center;"><img src="https://plot.ly/~jcarlosmayo/175.png" alt="Amount of rentals by real state agency" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <a href="https://plot.ly/~jcarlosmayo/175/" target="_blank" title="Amount of rentals by real estate agency" style="display: block; text-align: center;"><img src="https://plot.ly/~jcarlosmayo/175.png" alt="Amount of rentals by real estate agency" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="jcarlosmayo:175" src="https://plot.ly/embed.js" async></script>
 </div>
 
