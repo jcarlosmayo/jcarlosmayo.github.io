@@ -42,7 +42,7 @@ apartments in the range of 50m<sup>2</sup> and there seems to be an interesting 
 <img src="{{ site.baseurl }}/img/post-helsinki-housing/hist_price.png" />
 
 Regarding real state firms, among a good amount of competition, SATO, dealing about 25% of the available rentals seems to be a dominant player - 
-at this point in time at least. It is also interesting that a fair percentage of the rentals available, about 13%, is composed by small firms, associations and societies not directly involved in the real state market and private individuals, which I packed together under the category *Other*.
+at this point in time at least. It is also interesting that a fair percentage of the rentals available, about 13%, is composed by small firms, associations and societies not directly involved in real state and private individuals, which I packed together under the category *Other*.
 
 <div>
     <a href="https://plot.ly/~jcarlosmayo/175/" target="_blank" title="Amount of rentals by real state agency" style="display: block; text-align: center;"><img src="https://plot.ly/~jcarlosmayo/175.png" alt="Amount of rentals by real state agency" style="max-width: 100%;width: 800px;"  width="800" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
