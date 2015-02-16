@@ -49,8 +49,8 @@ at this point in time at least. It is also interesting that a fair percentage of
     <script data-plotly="jcarlosmayo:175" src="https://plot.ly/embed.js" async></script>
 </div>
 
-As you can see, it is quite easy to extract and play around with the data. It would be especially interesting to produce price forecasts based on 
-scraped data and also to follow up the market over a long period of time to study how it develops. 
+As you can see, it is quite easy to extract and play around with the data. Some other interesting ideas would be to produce price forecasts based on 
+scraped data and also to follow up the market over a long period of time to study how it develops.
 
 
 ---
