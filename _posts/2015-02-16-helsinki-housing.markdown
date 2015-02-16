@@ -18,31 +18,30 @@ some data munging with R is required - you can see how I did it
 <a target="_blank" href="https://github.com/jcarlosmayo/helsinki_housing/blob/master/clear_kimono.R">here</a>.
 
 One of the major features missing in the original data are geo-coordinates, which are essential to explore and understand the data. 
-Fortunately, the can be easily retrieved running the address values in the *geocode* function within the 
+Fortunately, they can be easily retrieved running the address values through the *geocode* function within the 
 <a target="_blank" href="https://github.com/dkahle/ggmap">ggmap package</a>. The same package allows also to plot several types of maps 
-in combination with latitude and longitude coordinates, however, a more interactive and flexible alternative are
-<a target="_blank" href="http://leafletjs.com/">leaflet maps</a>, which can be used in R via the 
+using latitude and longitude coordinates, however, a more interactive and flexible alternative are
+<a target="_blank" href="http://leafletjs.com/">leaflet maps</a>, which can be used straight in R via the 
 <a target="_blank" href="https://github.com/rstudio/leaflet">leaflet package</a>.
 
  
 After retrieving and cleaning the data available on February 3rd and 12th, I put it all together in the shiny app that you 
-can see below. It could be easily developed to provide live results.
+can see below, which could be easily developed to provide live results.
 
 <a target="_blank" href="https://jcarlosmayo.shinyapps.io/helsinki_housing_leaflet/">
 <img src="{{ site.baseurl }}/img/post-helsinki-housing/post-helsinki-housing-teaser.png" />
 </a>
 
-Even though the data captures the rentals offered by several real state agents, it has been extracted from a single portal at 
+The data captures the rentals offered by several real state agents but it has been extracted from a single portal at 
 only two different points in time so it definitely does not provide an overall picture of the housing market in the area. 
-I have restricted the values to the central 95th percentile to remove the distortions introduce by extreme outliers, which, granted, 
-might represent interesting studies in themselves. 
+Additionally, I have restricted the values to the central 95th percentile to remove the distortions introduce by extreme outliers. 
 Bearing that in mind it is still interesting to have a look at the distribution of price and size. The vast majority of rentals correspond to 
-apartments in the range of 50m<sup>2</sup> and there seems to be a clear division of prices at 1,000 EUR per month.
+apartments in the range of 50m<sup>2</sup> and there seems to be an interesting price *barrier* at 1,000 EUR per month.
 
 <img src="{{ site.baseurl }}/img/post-helsinki-housing/hist_size.png" />
 <img src="{{ site.baseurl }}/img/post-helsinki-housing/hist_price.png" />
 
-Among a good amount of competition SATO, offering about 25% of the available rentals available, seems to be a dominant player in the market - 
+Among a good amount of competition, SATO, dealing about 25% of the available rentals seems to be a dominant player - 
 at this point in time at least. It is also interesting that a fair percentage of the rentals available, about 13%, is composed by small 
 associations or societies and private individuals, which I packed together under the category *Other*.
 
