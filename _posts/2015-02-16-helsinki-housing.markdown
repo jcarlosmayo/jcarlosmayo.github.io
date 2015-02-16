@@ -9,7 +9,7 @@ header-img: "img/post-helsinki-housing/post-helsinki-housing.jpg"
 
 Housing information is a popular environment where to play with data. In Helsinki - where I live - and taking into account the cities of Espoo and 
 Vantaa too, which constitute <a target ="_blank" href="https://en.wikipedia.org/wiki/Greater_Helsinki"> Finland's capital region</a>, 
-there are, at any given time, a couple of thousand <a target="_blank" href="http://www.vuokraovi.com/?locale=en">rentals available</a>.
+there are a couple of thousand <a target="_blank" href="http://www.vuokraovi.com/?locale=en">rentals available</a> at any given time.
 
 To extract their major characteristics <a target="_blank" href="https://www.kimonolabs.com/">Kimono labs</a> provides a great, 
 easy to use and free tool- <a target="_blank" href="https://import.io/">import.io</a> is another good alternative. I chose to extract 
