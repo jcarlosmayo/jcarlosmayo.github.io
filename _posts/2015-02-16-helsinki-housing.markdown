@@ -50,6 +50,9 @@ associations or societies and private individuals, which I packed together under
     <script data-plotly="jcarlosmayo:175" src="https://plot.ly/embed.js" async></script>
 </div>
 
+It would be interesting to follow up the results over a long period of time to study how the overall market develops. 
+And as you can see, it is quite easy to extract and play around with the data.
+
 ---
 
 Find the whole R code to produce the Shinyapp and plots on <a target="_blank" href="http://github.com/jcarlosmayo/helsinki_housing/">GitHub</a>.
