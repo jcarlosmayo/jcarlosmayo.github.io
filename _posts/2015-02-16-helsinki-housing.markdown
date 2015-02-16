@@ -2,7 +2,7 @@
 layout:     post
 title:      "Helsinki rentals"
 subtitle:   "Extracting and exploring housing market data"
-date:       2015-02-10 12:00:00
+date:       2015-02-16 12:00:00
 author:     "Juan Carlos Mayo"
 header-img: "img/post-helsinki-housing/post-helsinki-housing.jpg"
 ---
