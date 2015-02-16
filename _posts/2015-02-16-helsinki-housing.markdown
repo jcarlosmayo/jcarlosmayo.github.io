@@ -26,7 +26,7 @@ using latitude and longitude coordinates, however, a more interactive and flexib
 
  
 After retrieving and cleaning the data available on February 3rd and 12th, I put it all together in the shiny app that you 
-can see below, which could be easily developed to provide live results.
+can see below, which displays static content but could be easily developed to provide live results.
 
 <a target="_blank" href="https://jcarlosmayo.shinyapps.io/helsinki_housing_leaflet/">
 <img src="{{ site.baseurl }}/img/post-helsinki-housing/post-helsinki-housing-teaser.png" />
