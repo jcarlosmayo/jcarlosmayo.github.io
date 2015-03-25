@@ -7,8 +7,8 @@ author:     "Juan Carlos Mayo"
 header-img: "img/post-religiosity.jpg"
 ---
 
-**Is there a relationship between how religious a person is and his or her views towards homosexuality?** The answer may seem obvious to many, 
-yet it is better to test what one may suspect. The <a target="_blank" href="http://www.europeansocialsurvey.org">European Social Survey</a> 
+**Is there a relationship between how religious a person is and his or her views towards homosexuality?** The answer may seem obvious to many,
+yet it is better to test what one may suspect. The <a target="_blank" href="http://www.europeansocialsurvey.org">European Social Survey</a>
 provides a fairly good amount of information on the beliefs and behaviour of Europeans across nations, among which one can find the answer to:
 
 * How religious are you? A categorical variable coded from 0, not religious at all, to 10, very religious.
@@ -31,8 +31,8 @@ To test the independence of the variables I ran a <a target="_blank" href="https
 
 ---
 
-The <a target="_blank" href="http://rpubs.com/jcarlosmayo/dasi_project">original study </a>was carried out for the course 
-<a target="_blank" href="https://www.coursera.org/course/statistics">Data Analysis and Statistical Inference</a>. You may also find the whole R code on <a target="_blank" href="https://github.com/jcarlosmayo/dasi_project">GitHub</a>.
+The <a target="_blank" href="http://rpubs.com/jcarlosmayo/dasi_project">original study </a>was carried out for the course
+<a target="_blank" href="https://www.coursera.org/course/statistics">Data Analysis and Statistical Inference</a>. You may also find the R code on <a target="_blank" href="https://github.com/jcarlosmayo/dasi_project">GitHub</a>.
 
 ---
 
