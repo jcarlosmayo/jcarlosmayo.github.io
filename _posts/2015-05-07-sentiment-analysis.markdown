@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Russian short stories"
-subtitle:   "A sentiment analysis test"
+subtitle:   "A test on sentiment analysis"
 date:       2015-05-07 12:00:00
 author:     "Juan Carlos Mayo"
 header-img: "img/post-sentiment-analysis/post-sentiment-analysis.jpg"
