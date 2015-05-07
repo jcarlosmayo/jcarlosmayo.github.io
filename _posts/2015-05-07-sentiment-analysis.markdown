@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Russian short stories"
-subtitle:   "A test on sentiment analysis"
+subtitle:   "Sentiment analysis using the syuzhet package"
 date:       2015-05-07 12:00:00
 author:     "Juan Carlos Mayo"
 header-img: "img/post-sentiment-analysis/post-sentiment-analysis.jpg"
