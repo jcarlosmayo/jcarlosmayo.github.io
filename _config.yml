@@ -2,7 +2,8 @@
 title: facts & figures
 header-img: img/home-bg.jpg
 email: juan.carlos.mayo.martinez@gmail.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+# "Write your site description here. It will be used as your sites meta description as well!"
+description: "Data analysis and things that come my way"
 baseurl: ""
 url: "http://jcarlosmayo.github.io"
 twitter_username: jcarlosmayo
