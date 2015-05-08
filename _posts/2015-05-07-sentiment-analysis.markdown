@@ -64,6 +64,9 @@ Once again, although there are some rather sad stories like *The revolutionist* 
 In summary, according to this - arguably rather small sample - there does not seem to be any indication to sustain my belief that Russian literature is especially sad or melancholic. However, there are limitations to this analysis, which will appear obvious to anyone who has read any of the stories selected.  
 <a target="_blank" href="http://www.ibiblio.org/eldritch/ac/vanka.html">Chekhov's Vanka</a> - according to this analysis - appears to end on a positive note, to be overall more positive than negative, and to contain more joy than sadness. However, you might feel otherwise after reading it. <a target="_blank" href="https://en.wikipedia.org/wiki/Natural_language_processing">Natural Language Processing</a> provides increasingly powerful tools but there are still subtleties and connotations embedded in literature and language that it cannot grasp and that one can appreciate - and definitely enjoy - fully by reading.
 
+<br/>
+\* *<a target="_blank" href="https://twitter.com/clancynewyork">Eileen Clancy</a> has put together a comprehensive storyline of the <a target="_blank" href="https://storify.com/clancynewyork/contretemps-a-syuzhet">attention and critique</a> received by the syuzhet package since it came out in February 2015*
+
 ---
 
 Find the R code on <a target="_blank" href="http://github.com/jcarlosmayo/sentiment_analysis/">GitHub</a>.
