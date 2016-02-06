@@ -8,7 +8,7 @@ header-img: "img/post-spanish-demography/bol_kirmes.png"
 ---
 
 
-Coming from a small rural town in northwest Spain the issue of regional development has interested me for a long time, and one primary and immediate way to examine it is from the perspective of population distribution.
+Coming from a small rural town in northwest Spain the issue of regional development has interested me for a long time, and one primary and immediate way to approach it is from the perspective of population distribution.
 
 After the <a href="https://en.wikipedia.org/wiki/Rural_flight" target="_blank">rural flight</a> that took place during the 20<sup>th</sup> century the 21<sup>st</sup> has seen a vast majority of the population settled in urban areas and a rural landscape largely depopulated. The population divide between urban and rural can be clearly appreciated in the plot below, containing all the municipalities in peninsular Spain, the Balearic Islands and the autonomous cities of Ceuta and Melilla, in the northern coast of Africa.
 
