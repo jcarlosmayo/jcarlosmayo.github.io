@@ -143,6 +143,7 @@ hr.small {
   padding: 100px 0 50px;
   color: white;
 }
+
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
@@ -225,7 +226,7 @@ hr.small {
 }
 .post-preview > .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 16px;
   font-style: italic;
   margin-top: 0;
 }
@@ -240,7 +241,7 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
-    font-size: 36px;
+    font-size: 24px;
   }
 }
 .section-heading {
