@@ -16,7 +16,7 @@ The following `docker-compose.yaml` file defines:
 - A PostgreSQL container with a predefined root user, password and a database
 - A NiFi container dependant on the successful creation of the PostgreSQL container
 
-```
+```yaml
 version: '3'
 
 services:

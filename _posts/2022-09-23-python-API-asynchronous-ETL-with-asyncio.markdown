@@ -35,7 +35,7 @@ You can find below the basic code for the three different approaches. Since the 
 ### for loop
 **147.115 seconds**
 
-```
+```python
 import asyncio
 import aiohttp
 from datetime import date, timedelta
@@ -67,7 +67,7 @@ asyncio.run(retrieve_data(date_list))
 ### asyncio without tasks
 **41.922 seconds**
 
-```
+```python
 import asyncio
 import aiohttp
 from datetime import date, timedelta
@@ -98,7 +98,7 @@ asyncio.run(retrieve_data(date_list))
 ### asyncio with tasks
 **2.556 seconds**
 
-```
+```python
 import asyncio
 import aiohttp
 from datetime import date, timedelta
