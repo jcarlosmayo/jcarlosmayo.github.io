@@ -140,7 +140,8 @@ hr.small {
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 100px 0 50px;
+  /* padding: 100px 0 50px; */
+  padding: 40px 0 20px; /* Less vertical padding */
   color: white;
 }
 
@@ -148,7 +149,8 @@ hr.small {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    /* padding: 150px 0; */
+    padding: 60px 0; /* Smaller than original 150px top/bottom */
   }
 }
 .intro-header .site-heading,
