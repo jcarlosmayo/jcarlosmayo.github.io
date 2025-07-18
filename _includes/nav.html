@@ -20,8 +20,8 @@
                 </li>
                 {% for page in site.pages %}{% if page.title %}
                 <li>
-                    <!--<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>-->
-                    <a href="{{ page.url | prepend: site.baseurl }}">About me</a>
+                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                    <!-- <a href="{{ page.url | prepend: site.baseurl }}">About me</a> -->
                 </li>
                 {% endif %}{% endfor %}
             </ul>
