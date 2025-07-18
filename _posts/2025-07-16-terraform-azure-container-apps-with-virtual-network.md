@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "How to expose an Azure Container App TCP port"
-subtitle:   "Terraform definition of the resources needed"
+title:      "Azure Container App TCP port access"
+subtitle:   "How to configure the resources needed in Terraform"
 date:       2025-07-17 18:00:00
 author:     "Juan Carlos Mayo"
 header-img: "img/post-default-bg.png"
