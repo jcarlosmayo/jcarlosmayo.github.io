@@ -1,21 +1,21 @@
 ---
 layout:     post
 title:      "Azure Container App TCP port access"
-subtitle:   "How to configure the resources needed in Terraform"
+subtitle:   "Teraform basic configurationthe basic How to configure the resources needed in Terraform"
 date:       2025-07-17 18:00:00
 author:     "Juan Carlos Mayo"
 header-img: "img/post-default-bg.png"
 ---
 
-If you want to expose a TCP port from a Container App Azure will require you to deploy it within a [Virtual Network](https://learn.microsoft.com/en-us/azure/container-apps/ingress-overview#tcp). The interesting part is that that is pretty much all you need. No Application Gateway, Private DNS Zone, Private Link... Accessibility is still managed by the Container App ingress configuration so even though it is publicly accessible it is easy to set restrictions on who can access your application.
+If you want to expose a TCP port from a Container App Azure will require you to deploy it within a [Virtual Network](https://learn.microsoft.com/en-us/azure/container-apps/ingress-overview#tcp). The interesting part is that - unless you have other requirements - is pretty much all you need. No Application Gateway, Private DNS Zone, Private Link... And you can still control access through the Container App ingress configuration, making it very easy to manage access rights.
 
 <p align="center">
     <img src="{{ site.baseurl }}/img/post-terraform-azure-container-apps-with-virtual-network/container-app-tcp.png" />
 </p>
 
-What it is important to note is that the Container App Environment must be configured to use a [workload profile](https://learn.microsoft.com/en-us/azure/container-apps/workload-profiles-overview), which will enable us to link it to a subnet, and hence to a virtual network.
+To attach a virtual network to a container app, the associated container app environment must be configured to use a [workload profile](https://learn.microsoft.com/en-us/azure/container-apps/workload-profiles-overview), which is then linked to a subnet within the virtual network.
 
-In Terraform, the resources can be configured in the following separate files.
+In Terraform, this means configuring four separate resources which you can see split below in three separate files.
 
 `network.tf`
 
@@ -49,7 +49,7 @@ resource "azurerm_subnet" "my_subnet" {
 
 `container-app-env.tf`
 
-Note that the parameter `infrastructure_resource_group_name` is not known in advance. Instead, it is defined upon creation. It might be inferable because it seems to follow this pattern `ME_<container-app-environment-name>_<resource-group-name>_<region>` but in practice it might require a staggered approach in which you should comment it out on the first deployment. `terraform plan` will make it visible after that, and that is when you can add it.
+Note that the parameter `infrastructure_resource_group_name` is not known in advance. It is a platform-managed resource group created to host infrastructure resources, and it will be defined during the creation of the container app environment. It might be inferable because it seems to follow this pattern `ME_<container-app-environment-name>_<resource-group-name>_<region>`. But in practice I have followed a staggered deployment approach in which it is commented out on the first deployment. Once the container app environment is created successfully, you can inspect the Container App Enviornment JSON definition - where it is defined as `infrastructureResourceGroup` - or run `terraform plan` to see it, and add it to your configuration.
 
 ```terraform
 # container-app-env.tf
@@ -73,7 +73,7 @@ resource "azurerm_container_app_environment" "my_cae" {
 
 `container-app.tf`
 
-The definition of an Azure Container App can vary a lot depending on your needs. Environment variables, secrets, registry and ingress configuration, volume mounts... Below is a simplified example that highlights what is needed to make the TCP port available.
+The definition of an Azure Container App can vary a lot depending on your needs. It might require environment variables, secrets, registry and ingress configuration, volume mounts... This is a simplified example running a basic setup that exposes publicly the TCP port 4840.
 
 ```terraform
 # container-app.tf
@@ -106,4 +106,4 @@ resource "azurerm_container_app" "my_ca" {
 
 <hr>
 
-That is all. Once deployed, Azure Container Apps will provide you with an fqdn you can use to connect to the service. Something along this format `<container-app-name>.<unique-word-combination>.<region>.azurecontainerapps.io`. Just note, that depending on the service you are running, and on the way you are connecting to it, you might need to append the port to that fqdn.
+That is all. Once deployed, Azure Container Apps will provide you with an fqdn you can use to connect to the service. Something along this format `<container-app-name>.<unique-word-combination>.<region>.azurecontainerapps.io`. Bear in mind that depending on the service you are running, and on the way you are connecting to it, you might need to append the port to that fqdn.
