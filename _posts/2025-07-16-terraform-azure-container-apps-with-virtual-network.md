@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Azure Container App TCP port access"
-subtitle:   "Teraform basic configurationthe basic How to configure the resources needed in Terraform"
+subtitle:   "Terraform basic configuration"
 date:       2025-07-17 18:00:00
 author:     "Juan Carlos Mayo"
 header-img: "img/post-default-bg.png"
