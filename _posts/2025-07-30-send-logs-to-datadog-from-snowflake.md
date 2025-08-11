@@ -2,7 +2,7 @@
 layout:     post
 title:      "Send logs to Datadog from Snowflake"
 subtitle:   "Using Snowflake native resources and libraries not readily available in Snowpark"
-date:       2025-07-17 18:00:00
+date:       2025-08-11 18:00:00
 author:     "Juan Carlos Mayo"
 header-img: "img/post-default-bg.png"
 ---
